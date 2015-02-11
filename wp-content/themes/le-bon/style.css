@@ -1,0 +1,154 @@
+/***************CSS Reset*************************************/
+
+html, body
+{
+    padding:0px;
+    margin:0px;
+}
+
+
+/******************* fin du CSS reset **************************/
+
+html
+{
+    font-family: 'Libre', sans-serif; 
+}
+
+.container
+{
+    font-family: Georgia,Courier,"Courier New","Times New Roman",Times,serif;
+}
+
+#main-header
+{
+    background-color: #454545;
+    color: white; 
+    height: 190px; 
+    text-align: center; 
+    
+  
+}
+
+
+#main-header li
+{
+    display: inline; 
+     
+    border-top: solid white 1px; 
+    margin-top: 10px; 
+    padding-top: 10px; 
+     padding-left: 40px;
+    padding-right: 40px;
+}
+
+#main-header li a
+{
+    color: white;
+   
+   
+}
+
+#main-header a:hover
+{
+    color: darkgrey;
+    text-decoration: none; 
+}
+
+#main-header nav
+{
+   padding-top: 40px; 
+}
+
+.glyphicon
+{
+    color: white; 
+    font-size: 17px;
+    margin-left: 10px; 
+}
+
+.header-carl a
+{
+    text-decoration: none; 
+    color: white;
+}
+
+#right-header
+{
+    padding-top: 0px; 
+    padding-right: 117px; 
+}
+
+#right-header a
+{
+    
+    padding-top: 7px; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 7px; 
+    
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-size: 12px; 
+}
+
+.btn-default
+{
+    background: #454545;
+    border: 1px solid white; 
+    color: white; 
+    border-radius: 0; 
+    border-top: none; 
+    text-transform: uppercase; 
+}
+
+.dropdown-menu a
+{
+    color: #454545;
+    text-transform: lowercase; 
+}
+#create-account
+{
+    border-top: 1px #454545 solid; 
+}
+
+.dropdown-menu
+{
+    background: #CECECE; 
+}
+
+.dropdown-menu label
+{
+    padding-top: 10px; 
+}
+
+.dropdown-menu .btn-default
+{
+    margin-top: 15px; 
+    padding: 5px; 
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+#form-connect fieldset
+{
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.dropdown-menu .btn-default
+{
+    background: #454545;
+    
+    color: white; 
+    border-radius: 0; 
+    border-top: none; 
+    text-transform: uppercase; 
+}
+
+#abonner
+{
+    display: block; 
+    margin: 0 auto; 
+}
